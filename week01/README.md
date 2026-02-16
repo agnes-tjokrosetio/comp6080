@@ -23,9 +23,11 @@ Hello! Welcome to COMP6080 - Web frontend programming! :)
 - **Me**: z5477074@ad.unsw.edu.au
 - **Course Email**: cs6080@cse.unsw.edu.au
 
-### Icebreakers
+## Icebreakers
 
-### Introduction to Frontend Programming
+[Icebreaker Activity](icebreaker/README.md)
+
+## Introduction to Frontend Programming
 
 ![HTML, CSS, JS](assets/image.png)
 
@@ -151,4 +153,9 @@ Inside `index.html`:
 ## Exercises
 
 1. Generate simple box
+
+   [Activity: Read Me](css-generate-simple-box/README.md)
+
 2. Replicate simple layout
+
+   [Activity: Read Me](css-replicate-airbnb/README.md)
