@@ -6,14 +6,16 @@ How are we feeling? Biggest worries/fears about the course?
 
 ### 📢 Updates & Reminders
 
-- Assignment 1 due Friday Week 3 at 8pm!
-- Help sessions available see: https://cgi.cse.unsw.edu.au/~cs6080/25T3/timetable/help-sessions
+- Assignment 1 due Monday 2nd of March [Week 3] @ 8pm!
+- Help sessions available see: https://cgi.cse.unsw.edu.au/~cs6080/26T1/timetable/help-sessions
 
 ### Today...
 
 📦 Flexbox
 
 🛠️ Responsiveness + Mobile CSS
+
+⚙️ Replicating Pages
 
 ## Flexbox
 
@@ -26,7 +28,11 @@ Useful links:
 
 ![flex](assets/flex.svg)
 
-See demo! 1.flexbox
+### Exercise
+
+Task: Simple Flexbox
+
+[Activity: Read Me](css-replicate-simple-flex/README.md)
 
 ## Responsiveness + Mobile CSS
 
@@ -76,4 +82,16 @@ Allows CSS rules to apply to elements only when the device reaches a specific co
 }
 ```
 
-Demo! 2.mobile
+### Exercise
+
+Task: Layered and Mobile
+
+[Activity: Read Me](css-replicate-layered-and-mobile/README.md)
+
+## Replicating Pages
+
+### Exercise
+
+Task: Replicate
+
+[Activity: Read Me](css-replicate-stats-marketing/README.md)
