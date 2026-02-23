@@ -88,10 +88,6 @@ Task: Layered and Mobile
 
 [Activity: Read Me](css-replicate-layered-and-mobile/README.md)
 
-## Replicating Pages
-
-### Exercise
-
 Task: Replicate
 
 [Activity: Read Me](css-replicate-stats-marketing/README.md)
