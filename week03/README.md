@@ -37,7 +37,7 @@ Task: Solving Time Problem
 
 [Activity](node-momentjs-problem/README.md)
 
-Task: Solving UUID Problem
+Task: Solving UUID Problem [if there is time]
 
 [Activity](node-uuid-problem/README.md)
 
@@ -91,3 +91,9 @@ button.addEventListener("click", () => {
   alert("Button was clicked");
 });
 ```
+
+### Exercise
+
+Task: Simple DOM
+
+[Activity](simple-DOM-example/README.md)
