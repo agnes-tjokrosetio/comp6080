@@ -4,7 +4,6 @@ Hello, Welcome to Week 3!
 
 ### 📢 Updates & Reminders
 
-- Assignment 1 due Friday Week 3 (this week!) at 8pm
 - Assignment 2 has been released (Javascript)!
 
 ### Today...
@@ -20,7 +19,27 @@ Hello, Welcome to Week 3!
 - Objects
 - Functions
 
-See `1.Javascript/basics.js`
+### Exercise
+
+Task: JavaScript Basics
+
+[Activity](js-basics/js-basics.js)
+
+Task: Solving Simple Problem 1
+
+[Activity](node-number-manipulation-1/README.md)
+
+Task: Solving Simple Problem 2
+
+[Activity](node-number-manipulation-2/README.md)
+
+Task: Solving Time Problem
+
+[Activity](node-momentjs-problem/README.md)
+
+Task: Solving UUID Problem
+
+[Activity](node-uuid-problem/README.md)
 
 ## DOM
 
@@ -72,5 +91,3 @@ button.addEventListener("click", () => {
   alert("Button was clicked");
 });
 ```
-
-Demo! See: `2.DOM-example`
