@@ -7,3 +7,17 @@ const numbers = [
 ];
 
 console.log("Hello");
+
+// A list of all negative numbers, in ascending order, surrounded by [ and ], e.g. [ -4, -2, -1 ]
+console.log(
+  "List of negatives =",
+  numbers.filter((number) => number < 0).sort((n1, n2) => n1 - n2),
+);
+
+// A single number that is the average of all positive numbers disivisble (without remainder) by 6, .e.g. 8.4
+const positives = numbers.filter((number) => number > 0 && number % 6 == 0);
+const sum = positives.reduce((prev, curr) => prev + curr);
+console.log("Avergae of positive numbers and divisible by 6 =" + sum / positives.length);
+
+// A list of all numbers great than 600, as they appear in the list, but printed in reverse order, e.g. [ 620, 610, 800 ]
+console.log("Numbers greater than 600 but in reverse =", numbers.filter((number) => number > 600).reverse());

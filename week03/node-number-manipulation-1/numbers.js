@@ -7,3 +7,47 @@ const numbers = [
 ];
 
 console.log("Hello");
+
+let sum = 0;
+let positiveSum = 0;
+let evenSum = 0;
+let sumAbove400 = 0;
+let sumBetween20and40 = 0;
+
+for (let i in numbers) {
+  const number = numbers[i];
+
+  // total sum
+  sum += number;
+
+  // check for positive numbers
+  if (number > 0) {
+    positiveSum += number;
+  }
+
+  // check for even numbers
+  if (number % 2 == 0) {
+    evenSum += number;
+  }
+
+  // check for values > 400
+  if (number > 400) {
+    sumAbove400 += number;
+  }
+
+  // check for index between 20 and 40
+  if (i >= 20 && i <= 40) {
+    sumBetween20and40 += number;
+  }
+}
+
+console.log(`The sum of all numbers in that list ${sum}`);
+console.log(`The sum of only positive numbers in that list ${positiveSum}`);
+console.log(`The sum of only even numbers in that list ${evenSum}`);
+console.log(`The sum of all numbers above 400 ${sumAbove400}`);
+console.log(`The sum of numbers between array index 20 and 40 inclusively ${sumBetween20and40}`);
+// The sum of all numbers in that list
+// The sum of only positive numbers in that list
+// The sum of only even numbers in that list
+// The sum of all numbers above 400
+// The sum of numbers between array index 20 and 40 inclusively
